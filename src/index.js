@@ -18,8 +18,8 @@ ReactDOM.render(
     <Provider store={store}>
       <BrowserRouter>
         <Switch>
-          {/* <Route exact path="/events/new" component={EventsNew} /> */}
-          <Route exact component={EventsNew} />
+          <Route exact path="/events/new" component={EventsNew} />
+          <Route exact component={EventsIndex} />
         </Switch>
       </BrowserRouter>
     </Provider>
