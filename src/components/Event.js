@@ -8,8 +8,6 @@ const Event = ({ event, dispatch }) => {
     if (result) { dispatch({ type: 'DELETE_EVENT', id }) }
   }
 
-
-
   return (
     <tr>
       <td>{id}</td>
